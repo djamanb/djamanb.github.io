@@ -1,0 +1,1 @@
+Drop Aman's photos here (gigs, portraits, crowd shots). Then drag them onto the matching image slots on the page (hero photo, gallery 1-6) — the site will pick them up directly, this folder is just for keeping originals organized.

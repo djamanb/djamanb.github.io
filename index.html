@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="_ds/nocturne-5e0448a3-4033-40cf-b744-41fc08c2fc95/styles.css">
+<script src="_ds/nocturne-5e0448a3-4033-40cf-b744-41fc08c2fc95/_ds_bundle.js"></script>
+<script src="./image-slot.js"></script>
+<script src="https://unpkg.com/@phosphor-icons/web"></script>
+<style>
+a { color: var(--color-accent); }
+a:hover { color: var(--color-accent-300); }
+</style>
+</helmet>
+
+<div style="min-height:100vh;background:radial-gradient(1200px 720px at 82% -160px, color-mix(in srgb, var(--color-accent-900) 75%, transparent), transparent 60%), radial-gradient(1100px 800px at -10% 100%, color-mix(in srgb, black 30%, transparent), transparent 55%), var(--color-bg);color:var(--color-text);font-family:var(--font-body)">
+
+<nav class="nav">
+  <span class="nav-brand">DJ AMAN B</span>
+  <a href="#about">About</a>
+  <a href="#styles">Styles</a>
+  <a href="#experience">Experiences</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#contact">Contact</a>
+  <a class="btn btn-primary" href="https://wa.me/919810012345" target="_blank" rel="noopener">Book Aman</a>
+</nav>
+
+<section style="padding:clamp(56px,8vw,120px) 0 clamp(48px,6vw,80px)">
+  <div style="max-width:1200px;margin:0 auto;padding:0 clamp(20px,5vw,72px)">
+    <div style="display:grid;grid-template-columns:minmax(0,1.1fr) minmax(260px,0.9fr);gap:clamp(32px,5vw,64px);align-items:center">
+      <div>
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:20px">
+          <span style="display:inline-block;width:24px;height:1px;background:var(--color-accent)"></span>
+          <span style="font-size:13px;letter-spacing:0.06em;text-transform:uppercase;color:var(--color-accent)">Delhi NCR &middot; Weddings, Parties &amp; Corporate Nights</span>
+        </div>
+        <h1 style="font-family:var(--font-heading);font-weight:var(--font-heading-weight);font-size:clamp(40px,6vw,74px);line-height:1.08;letter-spacing:-0.015em;margin:0 0 20px;color:var(--color-text)">
+          <span style="display:block">Purveyor of deep,</span>
+          <span style="display:block">infectious dance grooves.</span>
+        </h1>
+        <p style="font-size:17px;line-height:1.6;max-width:52ch;color:color-mix(in srgb, var(--color-text) 82%, transparent);margin:0 0 28px">For close to three decades I've been reading dance floors and filling them &mdash; weddings, private parties, corporate nights, and everything in between. One goal every time: get you dancing before you even realize it.</p>
+        <div style="display:flex;gap:12px;flex-wrap:wrap">
+          <a class="{{ whatsappClass }}" href="https://wa.me/919810012345" target="_blank" rel="noopener"><i class="ph ph-whatsapp-logo"></i>WhatsApp</a>
+          <a class="{{ emailClass }}" href="mailto:amanbatta@gmail.com"><i class="ph ph-envelope-simple"></i>Email</a>
+        </div>
+      </div>
+      <div class="lighten" style="border-radius:14px;overflow:hidden">
+        <image-slot id="hero-photo" shape="rect" placeholder="Drop a photo of Aman on the decks" style="width:100%;aspect-ratio:4/5"></image-slot>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about" style="padding:clamp(48px,6vw,88px) 0">
+  <div style="max-width:1200px;margin:0 auto;padding:0 clamp(20px,5vw,72px)">
+    <div style="display:flex;align-items:center;gap:10px;margin-bottom:24px">
+      <span style="display:inline-block;width:24px;height:1px;background:var(--color-accent)"></span>
+      <span style="font-size:13px;letter-spacing:0.06em;text-transform:uppercase;color:var(--color-accent)">About</span>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:clamp(24px,4vw,64px)">
+      <p style="font-size:16px;line-height:1.7;color:color-mix(in srgb, var(--color-text) 88%, transparent);margin:0">Music found me at ten, glued to every request show on the radio. What began as late nights at small parties turned into a real break in 1996, when I got my shot to play at Ego's &mdash; and never looked back.</p>
+      <p style="font-size:16px;line-height:1.7;color:color-mix(in srgb, var(--color-text) 88%, transparent);margin:0">I grew up on a mix of retro and old-school English music, synth-soaked 80s hits, and my own love of hip-hop. That mixed spectrum still defines a set of mine today: beautiful synth work and brooding basslines, all riding a pronounced, foot-shuffling house beat.</p>
+    </div>
+    <blockquote style="margin:clamp(32px,4vw,48px) 0 0;font-family:var(--font-heading);font-weight:var(--font-heading-weight);font-size:clamp(20px,2.2vw,27px);line-height:1.5;letter-spacing:-0.01em;color:var(--color-text);max-width:38ch">&ldquo;My skill is reading a room &mdash; finding the tracks that get feet moving and heads nodding, whatever the genre, tempo or decade. Don't be surprised if you're dancing before you notice.&rdquo;</blockquote>
+  </div>
+</section>
+
+<section id="styles" style="padding:clamp(48px,6vw,88px) 0">
+  <div style="max-width:1200px;margin:0 auto;padding:0 clamp(20px,5vw,72px)">
+    <div style="display:flex;align-items:center;gap:10px;margin-bottom:24px">
+      <span style="display:inline-block;width:24px;height:1px;background:var(--color-accent)"></span>
+      <span style="font-size:13px;letter-spacing:0.06em;text-transform:uppercase;color:var(--color-accent)">What I play</span>
+    </div>
+    <h2 style="font-size:clamp(26px,3vw,36px);margin:0 0 24px;letter-spacing:-0.012em">Every era, one dance floor.</h2>
+    <div style="display:flex;flex-wrap:wrap;gap:10px">
+      <span class="tag tag-accent" style="font-size:14px;padding:9px 18px">Retro &mdash; 80s &amp; 90s</span>
+      <span class="tag tag-neutral" style="font-size:14px;padding:9px 18px">House</span>
+      <span class="tag tag-accent" style="font-size:14px;padding:9px 18px">Bollywood &amp; Punjabi</span>
+      <span class="tag tag-neutral" style="font-size:14px;padding:9px 18px">Hollywood</span>
+      <span class="tag tag-accent" style="font-size:14px;padding:9px 18px">Golden Oldies &mdash; 40s&ndash;70s</span>
+      <span class="tag tag-neutral" style="font-size:14px;padding:9px 18px">Rock n Roll</span>
+      <span class="tag tag-accent" style="font-size:14px;padding:9px 18px">Commercial</span>
+      <span class="tag tag-neutral" style="font-size:14px;padding:9px 18px">Contemporary</span>
+    </div>
+  </div>
+</section>
+
+<section id="experience" style="padding:clamp(48px,6vw,88px) 0">
+  <div style="max-width:1200px;margin:0 auto;padding:0 clamp(20px,5vw,72px)">
+    <div style="display:flex;align-items:center;gap:10px;margin-bottom:24px">
+      <span style="display:inline-block;width:24px;height:1px;background:var(--color-accent)"></span>
+      <span style="font-size:13px;letter-spacing:0.06em;text-transform:uppercase;color:var(--color-accent)">Experiences</span>
+    </div>
+    <h2 style="font-size:clamp(26px,3vw,36px);margin:0 0 16px;letter-spacing:-0.012em">Every kind of night, covered.</h2>
+    <p style="font-size:16px;line-height:1.7;max-width:64ch;color:color-mix(in srgb, var(--color-text) 82%, transparent);margin:0 0 32px">Sangeets, receptions, housewarmings, birthdays, conferences, product launches, award nights &mdash; if music matters to the moment, I've got it covered. Three years running, I brought in the New Year live.</p>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px">
+      <div class="card elev-sm">
+        <span class="card-kicker">Weddings</span>
+        <h3 class="card-title">Weddings &amp; Celebrations</h3>
+        <p class="card-body">Sangeet to reception, pre-wedding to post &mdash; mainstream Bollywood sets that get every generation on the floor.</p>
+      </div>
+      <div class="card elev-sm">
+        <span class="card-kicker">Corporate</span>
+        <h3 class="card-title">Corporate &amp; Launches</h3>
+        <p class="card-body">Conferences, product launches and award nights that call for a different kind of energy, dialed in just right.</p>
+      </div>
+      <div class="card elev-sm">
+        <span class="card-kicker">Private</span>
+        <h3 class="card-title">Private Parties</h3>
+        <p class="card-body">Housewarmings, birthdays and private functions &mdash; read and run exactly like a good party should be.</p>
+      </div>
+      <div class="card elev-sm">
+        <span class="card-kicker">Milestone</span>
+        <h3 class="card-title">New Year's Eve</h3>
+        <p class="card-body">Three years running counting down live, and counting.</p>
+      </div>
+    </div>
+
+    <sc-if value="{{ showIntl }}" hint-placeholder-val="{{ true }}">
+    <div style="margin-top:clamp(40px,5vw,64px)">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:20px">
+        <span style="display:inline-block;width:24px;height:1px;background:var(--color-accent)"></span>
+        <span style="font-size:13px;letter-spacing:0.06em;text-transform:uppercase;color:var(--color-accent)">On the international decks</span>
+      </div>
+      <p style="font-size:16px;line-height:1.7;max-width:64ch;color:color-mix(in srgb, var(--color-text) 82%, transparent);margin:0 0 24px">Building a name well past Delhi, with regular sets in two of Asia's biggest nightlife cities.</p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px">
+        <div class="card elev-sm">
+          <div class="card-meta"><i class="ph ph-globe-hemisphere-east"></i>Regular gigs</div>
+          <h3 class="card-title">Hong Kong &mdash; Red</h3>
+          <p class="card-body">A recurring booking on the Hong Kong scene, playing Red on a regular rotation.</p>
+        </div>
+        <div class="card elev-sm">
+          <div class="card-meta"><i class="ph ph-map-pin"></i>Riverside strip</div>
+          <h3 class="card-title">Singapore &mdash; Clarke Quay</h3>
+          <p class="card-body">Sets along Clarke Quay's riverside strip, bringing the same crowd-reading energy abroad.</p>
+        </div>
+      </div>
+    </div>
+    </sc-if>
+  </div>
+</section>
+
+<section id="gallery" style="padding:clamp(48px,6vw,88px) 0">
+  <div style="max-width:1200px;margin:0 auto;padding:0 clamp(20px,5vw,72px)">
+    <div style="display:flex;align-items:center;gap:10px;margin-bottom:20px">
+      <span style="display:inline-block;width:24px;height:1px;background:var(--color-accent)"></span>
+      <span style="font-size:13px;letter-spacing:0.06em;text-transform:uppercase;color:var(--color-accent)">Gallery</span>
+    </div>
+    <div style="display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:16px;margin-bottom:32px">
+      <h2 style="font-size:clamp(26px,3vw,36px);margin:0;letter-spacing:-0.012em">On the decks.</h2>
+      <a class="btn btn-ghost" href="https://www.youtube.com/@Djamanb" target="_blank" rel="noopener"><i class="ph ph-youtube-logo"></i>Watch on YouTube</a>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px">
+      <figure style="margin:0">
+        <div class="lighten" style="border-radius:8px;overflow:hidden"><image-slot id="gallery-1" shape="rect" placeholder="Wedding reception floor" style="width:100%;aspect-ratio:4/3"></image-slot></div>
+        <figcaption style="padding-top:8px">Wedding reception floor</figcaption>
+      </figure>
+      <figure style="margin:0">
+        <div class="lighten" style="border-radius:8px;overflow:hidden"><image-slot id="gallery-2" shape="rect" placeholder="Corporate launch night" style="width:100%;aspect-ratio:4/3"></image-slot></div>
+        <figcaption style="padding-top:8px">Corporate launch night</figcaption>
+      </figure>
+      <figure style="margin:0">
+        <div class="lighten" style="border-radius:8px;overflow:hidden"><image-slot id="gallery-3" shape="rect" placeholder="Club set, Hong Kong" style="width:100%;aspect-ratio:4/3"></image-slot></div>
+        <figcaption style="padding-top:8px">Club set &mdash; Hong Kong</figcaption>
+      </figure>
+      <figure style="margin:0">
+        <div class="lighten" style="border-radius:8px;overflow:hidden"><image-slot id="gallery-4" shape="rect" placeholder="Private birthday party" style="width:100%;aspect-ratio:4/3"></image-slot></div>
+        <figcaption style="padding-top:8px">Private birthday party</figcaption>
+      </figure>
+      <figure style="margin:0">
+        <div class="lighten" style="border-radius:8px;overflow:hidden"><image-slot id="gallery-5" shape="rect" placeholder="New Year's Eve countdown" style="width:100%;aspect-ratio:4/3"></image-slot></div>
+        <figcaption style="padding-top:8px">New Year's Eve countdown</figcaption>
+      </figure>
+      <figure style="margin:0">
+        <div class="lighten" style="border-radius:8px;overflow:hidden"><image-slot id="gallery-6" shape="rect" placeholder="Clarke Quay, Singapore" style="width:100%;aspect-ratio:4/3"></image-slot></div>
+        <figcaption style="padding-top:8px">Clarke Quay, Singapore</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section id="contact" style="padding:clamp(56px,7vw,100px) 0 clamp(64px,8vw,120px)">
+  <div style="max-width:1200px;margin:0 auto;padding:0 clamp(20px,5vw,72px)">
+    <div style="display:grid;grid-template-columns:minmax(0,1fr) minmax(300px,0.9fr);gap:clamp(32px,5vw,64px)">
+      <div>
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:20px">
+          <span style="display:inline-block;width:24px;height:1px;background:var(--color-accent)"></span>
+          <span style="font-size:13px;letter-spacing:0.06em;text-transform:uppercase;color:var(--color-accent)">Book the night</span>
+        </div>
+        <h2 style="font-size:clamp(26px,3.2vw,40px);margin:0 0 16px;letter-spacing:-0.012em">Let's get your floor moving.</h2>
+        <p style="font-size:16px;line-height:1.7;max-width:48ch;color:color-mix(in srgb, var(--color-text) 82%, transparent);margin:0 0 32px">Tell me a bit about your event and I'll get back to you within a day. Prefer to talk it through directly? WhatsApp or call any time.</p>
+        <div style="display:flex;flex-direction:column;gap:4px">
+          <a href="https://wa.me/919810012345" target="_blank" rel="noopener" style="display:flex;align-items:center;gap:12px;color:var(--color-text);text-decoration:none;font-size:15px;padding:10px 0" style-hover="color:var(--color-accent)"><i class="ph ph-whatsapp-logo" style="color:var(--color-accent);font-size:20px"></i>+91 98100 12345</a>
+          <a href="mailto:amanbatta@gmail.com" style="display:flex;align-items:center;gap:12px;color:var(--color-text);text-decoration:none;font-size:15px;padding:10px 0" style-hover="color:var(--color-accent)"><i class="ph ph-envelope-simple" style="color:var(--color-accent);font-size:20px"></i>amanbatta@gmail.com</a>
+        </div>
+      </div>
+
+      <div class="card elev-md" style="padding:24px">
+        <sc-if value="{{ notSubmitted }}" hint-placeholder-val="{{ true }}">
+        <form onSubmit="{{ handleSubmit }}" style="display:flex;flex-direction:column;gap:16px">
+          <h3 class="card-title" style="margin-bottom:4px">Send an inquiry</h3>
+          <div class="field">
+            <label>Your name</label>
+            <input class="input" type="text" name="name" placeholder="Full name" required="{{ true }}" />
+          </div>
+          <div class="field">
+            <label>Event date</label>
+            <input class="input" type="date" name="date" />
+          </div>
+          <div class="field">
+            <label>Message</label>
+            <textarea class="input" name="message" placeholder="Venue, guest count, vibe you're after... and your phone number/email so Aman can call you back" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Send inquiry</button>
+        </form>
+        </sc-if>
+        <sc-if value="{{ submitted }}" hint-placeholder-val="{{ false }}">
+        <div style="padding:24px 4px;text-align:left">
+          <i class="ph ph-check-circle" style="font-size:28px;color:var(--color-accent)"></i>
+          <h3 class="card-title" style="margin:12px 0 6px">Got it &mdash; thank you.</h3>
+          <p class="card-body" style="margin-bottom:16px">I'll be in touch within a day to talk through the details.</p>
+          <a onClick="{{ resetForm }}" class="btn btn-ghost" style="cursor:pointer">Send another</a>
+        </div>
+        </sc-if>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer style="padding:32px clamp(20px,5vw,72px);display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;font-size:13px;color:color-mix(in srgb, var(--color-text) 55%, transparent);border-top:1px solid var(--color-divider)">
+  <span>&copy; 2026 Aman Batta (DJ Aman B) &middot; Based in Delhi NCR</span>
+  <a href="https://www.youtube.com/@Djamanb" target="_blank" rel="noopener" style="color:inherit;text-decoration:none" style-hover="color:var(--color-accent)">YouTube &middot; @Djamanb</a>
+</footer>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{
+  &quot;showInternational&quot;: {&quot;editor&quot;: &quot;boolean&quot;, &quot;default&quot;: true, &quot;tsType&quot;: &quot;boolean&quot;, &quot;section&quot;: &quot;Content&quot;},
+  &quot;primaryContact&quot;: {&quot;editor&quot;: &quot;enum&quot;, &quot;default&quot;: &quot;whatsapp&quot;, &quot;options&quot;: [&quot;whatsapp&quot;, &quot;email&quot;], &quot;tsType&quot;: &quot;string&quot;, &quot;section&quot;: &quot;Content&quot;}
+}">
+class Component extends DCLogic {
+  state = { submitted: false };
+
+  renderVals() {
+    const primary = this.props.primaryContact ?? 'whatsapp';
+    return {
+      submitted: this.state.submitted,
+      notSubmitted: !this.state.submitted,
+      handleSubmit: (e) => { e.preventDefault(); this.setState({ submitted: true }); },
+      resetForm: () => this.setState({ submitted: false }),
+      showIntl: this.props.showInternational ?? true,
+      whatsappClass: primary === 'whatsapp' ? 'btn btn-primary' : 'btn btn-secondary',
+      emailClass: primary === 'email' ? 'btn btn-primary' : 'btn btn-ghost',
+    };
+  }
+}
+</script>
+</body>
+</html>
