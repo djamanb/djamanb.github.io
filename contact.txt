@@ -1,0 +1,4 @@
+whatsapp=919810012345
+whatsapp_display=+91 98100 12345
+email=amanbatta@gmail.com
+form_endpoint=https://formspree.io/f/REPLACE_WITH_YOUR_FORM_ID
