@@ -1,0 +1,2 @@
+1. instructions to migrate from github to custom domain.
+2. make changes for mobile friendly interface.
