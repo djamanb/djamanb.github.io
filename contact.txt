@@ -1,4 +1,4 @@
-whatsapp=919810012345
-whatsapp_display=+91 98100 12345
+whatsapp=919810131498
+whatsapp_display=+91 98101 31498
 email=amanbatta@gmail.com
-form_endpoint=https://formspree.io/f/REPLACE_WITH_YOUR_FORM_ID
+form_endpoint=https://formspree.io/f/mvkppaav
