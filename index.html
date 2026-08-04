@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -20,20 +21,20 @@ a:hover { color: var(--color-accent-300); }
 
 <div style="min-height:100vh;background:radial-gradient(1200px 720px at 82% -160px, color-mix(in srgb, var(--color-accent-900) 75%, transparent), transparent 60%), radial-gradient(1100px 800px at -10% 100%, color-mix(in srgb, black 30%, transparent), transparent 55%), var(--color-bg);color:var(--color-text);font-family:var(--font-body)">
 
-<nav class="nav">
-  <span class="nav-brand">DJ AMAN B</span>
+<nav class="nav" style="flex-wrap:wrap;row-gap:10px">
+  <span class="nav-brand" style="white-space:nowrap">DJ AMAN B</span>
   <a href="#about">About</a>
   <a href="#styles">Styles</a>
   <a href="#experience">Experiences</a>
   <a href="#gallery">Gallery</a>
   <a href="#contact">Contact</a>
-  <a class="btn btn-primary" href="https://wa.me/919810012345" target="_blank" rel="noopener">Book Aman</a>
+  <a class="btn btn-primary" href="#contact">Book Aman</a>
 </nav>
 
 <section style="padding:clamp(56px,8vw,120px) 0 clamp(48px,6vw,80px)">
   <div style="max-width:1200px;margin:0 auto;padding:0 clamp(20px,5vw,72px)">
-    <div style="display:grid;grid-template-columns:minmax(0,1.1fr) minmax(260px,0.9fr);gap:clamp(32px,5vw,64px);align-items:center">
-      <div>
+    <div style="display:flex;flex-wrap:wrap;gap:clamp(32px,5vw,64px);align-items:center">
+      <div style="flex:1 1 440px;min-width:0">
         <div style="display:flex;align-items:center;gap:10px;margin-bottom:20px">
           <span style="display:inline-block;width:24px;height:1px;background:var(--color-accent)"></span>
           <span style="font-size:13px;letter-spacing:0.06em;text-transform:uppercase;color:var(--color-accent)">Delhi NCR &middot; Weddings, Parties &amp; Corporate Nights</span>
@@ -43,13 +44,10 @@ a:hover { color: var(--color-accent-300); }
           <span style="display:block">infectious dance grooves.</span>
         </h1>
         <p style="font-size:17px;line-height:1.6;max-width:52ch;color:color-mix(in srgb, var(--color-text) 82%, transparent);margin:0 0 28px">For close to three decades I've been reading dance floors and filling them &mdash; weddings, private parties, corporate nights, and everything in between. One goal every time: get you dancing before you even realize it.</p>
-        <div style="display:flex;gap:12px;flex-wrap:wrap">
-          <a class="{{ whatsappClass }}" href="https://wa.me/919810012345" target="_blank" rel="noopener"><i class="ph ph-whatsapp-logo"></i>WhatsApp</a>
-          <a class="{{ emailClass }}" href="mailto:amanbatta@gmail.com"><i class="ph ph-envelope-simple"></i>Email</a>
-        </div>
+        <a class="btn btn-primary" href="#contact">Book the night</a>
       </div>
-      <div class="lighten" style="border-radius:14px;overflow:hidden">
-        <image-slot id="hero-photo" shape="rect" placeholder="Drop a photo of Aman on the decks" style="width:100%;aspect-ratio:4/5"></image-slot>
+      <div class="lighten" style="border-radius:14px;overflow:hidden;flex:1 1 280px;min-width:0">
+        <image-slot id="hero-photo" shape="rect" src="media/photos/hero-profile.jpg" placeholder="Drop a photo of Aman on the decks" style="width:100%;aspect-ratio:4/5"></image-slot>
       </div>
     </div>
   </div>
@@ -185,8 +183,8 @@ a:hover { color: var(--color-accent-300); }
 
 <section id="contact" style="padding:clamp(56px,7vw,100px) 0 clamp(64px,8vw,120px)">
   <div style="max-width:1200px;margin:0 auto;padding:0 clamp(20px,5vw,72px)">
-    <div style="display:grid;grid-template-columns:minmax(0,1fr) minmax(300px,0.9fr);gap:clamp(32px,5vw,64px)">
-      <div>
+    <div style="display:flex;flex-wrap:wrap;gap:clamp(32px,5vw,64px)">
+      <div style="flex:1 1 400px;min-width:0">
         <div style="display:flex;align-items:center;gap:10px;margin-bottom:20px">
           <span style="display:inline-block;width:24px;height:1px;background:var(--color-accent)"></span>
           <span style="font-size:13px;letter-spacing:0.06em;text-transform:uppercase;color:var(--color-accent)">Book the night</span>
@@ -194,14 +192,14 @@ a:hover { color: var(--color-accent-300); }
         <h2 style="font-size:clamp(26px,3.2vw,40px);margin:0 0 16px;letter-spacing:-0.012em">Let's get your floor moving.</h2>
         <p style="font-size:16px;line-height:1.7;max-width:48ch;color:color-mix(in srgb, var(--color-text) 82%, transparent);margin:0 0 32px">Tell me a bit about your event and I'll get back to you within a day. Prefer to talk it through directly? WhatsApp or call any time.</p>
         <div style="display:flex;flex-direction:column;gap:4px">
-          <a href="https://wa.me/919810012345" target="_blank" rel="noopener" style="display:flex;align-items:center;gap:12px;color:var(--color-text);text-decoration:none;font-size:15px;padding:10px 0" style-hover="color:var(--color-accent)"><i class="ph ph-whatsapp-logo" style="color:var(--color-accent);font-size:20px"></i>+91 98100 12345</a>
-          <a href="mailto:amanbatta@gmail.com" style="display:flex;align-items:center;gap:12px;color:var(--color-text);text-decoration:none;font-size:15px;padding:10px 0" style-hover="color:var(--color-accent)"><i class="ph ph-envelope-simple" style="color:var(--color-accent);font-size:20px"></i>amanbatta@gmail.com</a>
+          <a href="{{ waHref }}" target="_blank" rel="noopener" style="display:flex;align-items:center;gap:12px;color:var(--color-text);text-decoration:none;font-size:15px;padding:10px 0" style-hover="color:var(--color-accent)"><i class="ph ph-whatsapp-logo" style="color:var(--color-accent);font-size:20px"></i>{{ waDisplay }}</a>
+          <a href="{{ emailHref }}" style="display:flex;align-items:center;gap:12px;color:var(--color-text);text-decoration:none;font-size:15px;padding:10px 0" style-hover="color:var(--color-accent)"><i class="ph ph-envelope-simple" style="color:var(--color-accent);font-size:20px"></i>{{ email }}</a>
         </div>
       </div>
 
-      <div class="card elev-md" style="padding:24px">
+      <div class="card elev-md" style="padding:24px;flex:1 1 300px;min-width:0">
         <sc-if value="{{ notSubmitted }}" hint-placeholder-val="{{ true }}">
-        <form onSubmit="{{ handleSubmit }}" style="display:flex;flex-direction:column;gap:16px">
+        <form action="{{ formEndpoint }}" method="POST" style="display:flex;flex-direction:column;gap:16px">
           <h3 class="card-title" style="margin-bottom:4px">Send an inquiry</h3>
           <div class="field">
             <label>Your name</label>
@@ -239,22 +237,40 @@ a:hover { color: var(--color-accent-300); }
 </div>
 </x-dc>
 <script type="text/x-dc" data-dc-script data-props="{
-  &quot;showInternational&quot;: {&quot;editor&quot;: &quot;boolean&quot;, &quot;default&quot;: true, &quot;tsType&quot;: &quot;boolean&quot;, &quot;section&quot;: &quot;Content&quot;},
-  &quot;primaryContact&quot;: {&quot;editor&quot;: &quot;enum&quot;, &quot;default&quot;: &quot;whatsapp&quot;, &quot;options&quot;: [&quot;whatsapp&quot;, &quot;email&quot;], &quot;tsType&quot;: &quot;string&quot;, &quot;section&quot;: &quot;Content&quot;}
+  &quot;showInternational&quot;: {&quot;editor&quot;: &quot;boolean&quot;, &quot;default&quot;: true, &quot;tsType&quot;: &quot;boolean&quot;, &quot;section&quot;: &quot;Content&quot;}
 }">
 class Component extends DCLogic {
-  state = { submitted: false };
+  state = { submitted: false, contact: null };
+
+  constructor(props) {
+    super(props);
+    fetch('./contact.txt')
+      .then(r => r.text())
+      .then(text => {
+        const contact = {};
+        text.split('\n').forEach(line => {
+          const i = line.indexOf('=');
+          if (i === -1) return;
+          contact[line.slice(0, i).trim()] = line.slice(i + 1).trim();
+        });
+        this.setState({ contact });
+      })
+      .catch(e => console.warn('[contact.txt] failed to load', e));
+  }
 
   renderVals() {
-    const primary = this.props.primaryContact ?? 'whatsapp';
+    const c = this.state.contact;
     return {
       submitted: this.state.submitted,
       notSubmitted: !this.state.submitted,
-      handleSubmit: (e) => { e.preventDefault(); this.setState({ submitted: true }); },
+      handleSubmit: (e) => { e.preventDefault(); fetch(c?.form_endpoint || '', { method: 'POST', body: new FormData(e.target) }).then(() => this.setState({ submitted: true })).catch(err => console.error('Form error:', err)); },
       resetForm: () => this.setState({ submitted: false }),
       showIntl: this.props.showInternational ?? true,
-      whatsappClass: primary === 'whatsapp' ? 'btn btn-primary' : 'btn btn-secondary',
-      emailClass: primary === 'email' ? 'btn btn-primary' : 'btn btn-ghost',
+      waHref: c ? `https://wa.me/${c.whatsapp}` : '#',
+      waDisplay: c ? c.whatsapp_display : 'Loading…',
+      emailHref: c ? `mailto:${c.email}` : '#',
+      email: c ? c.email : 'Loading…',
+      formEndpoint: c?.form_endpoint || '',
     };
   }
 }
